@@ -1,4 +1,4 @@
-{ stdenv, callPackage, fetchurl, file, glibc, expat, gmp5, libmpc, ncurses6 }:
+{ stdenv, lib, callPackage, fetchurl, file, glibc, expat, gmp5, libmpc, ncurses6 }:
 
 let
   mpfr_3 = callPackage ./mpfr-3.nix {};
